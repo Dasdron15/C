@@ -1,3 +1,10 @@
+/**
+ * Merges two sorted arrays into nums1 in non-decreasing order
+ *
+ * nums1 has enough space to hold all elements from nums2
+ * The merge is done from the end to avoid overwritten elements
+ */
+
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 {
     if (n == 0)
